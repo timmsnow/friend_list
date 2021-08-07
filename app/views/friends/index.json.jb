@@ -1,0 +1,11 @@
+@friends.map do |friend|
+  {
+    id: friend.id,
+    first_name: friend.first_name,
+    last_name: friend.last_name,
+    email: friend.email,
+    phone: friend.phone,
+    twitter: friend.twitter,
+    url: friend_url(friend, format: :json)
+  }
+end

@@ -1,0 +1,10 @@
+{
+  id: @friend.id,
+  first_name: @friend.first_name,
+  last_name: @friend.last_name,
+  email: @friend.email,
+  phone: @friend.phone,
+  twitter: @friend.twitter,
+  created_at: @friend.created_at,
+  updated_at: @friend.updated_at
+}
