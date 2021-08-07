@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :friends
+  resources :friends 
   get 'home/about'
   root 'home#index'
   # EXAMPLE HTML ROUTE

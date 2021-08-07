@@ -1,6 +1,8 @@
-<h1>Editing Friend</h1>
+<h1 class="mb-3">Edit Friend Info</h1>
 
 <%= render 'form', friend: @friend %>
 
-<%= link_to 'Show', @friend %> |
-<%= link_to 'Back', friends_path %>
+<div class=" text-center mb-3">
+<%= link_to 'Show', @friend, class:"btn btn-primary" %> 
+<%= link_to 'Back', friends_path, class:"btn btn-secondary" %>
+</div>
